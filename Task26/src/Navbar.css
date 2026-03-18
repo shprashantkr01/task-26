@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    padding: 1% 0;
+    box-shadow: 0px 5px 20px rgb(224, 224, 224);
+    position:fixed;
+    top:0;
+    background-color: white;
+}
+#container>div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    flex:1;
+}
+#right{
+    flex:2
+}
+#left>h3{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#right>ul{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+#right>ul>li>a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+#right>ul>li>a:hover{
+    color: red;
+}

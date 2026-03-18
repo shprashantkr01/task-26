@@ -1,0 +1,52 @@
+.productInfoContainer{
+    display:flex;
+    height: 70px;
+}
+.imageDiv{
+    width:40px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.imageDiv>img{
+    width:40px;
+    height:40px;
+    object-fit:cover;
+}
+.textDiv{
+    flex:3;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-left:10px;
+}
+.textDiv>h3:nth-child(2){
+    color: green;
+}
+.quantityDiv{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.quantityDiv button{
+    width:30px;
+    height:30px;
+    border:none;
+    border-radius:5px;
+    background:#ddd;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.quantityDiv button:hover{
+    background:#bbb;
+}
+
+.quantityDiv span{
+    font-size:16px;
+    font-weight:600;
+}

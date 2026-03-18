@@ -1,3 +1,9 @@
+Project setup is  done using vite framework for react.
+command used:"npm createVite@latest ."
+
+All the files except App.jsx, App.css, Navbar.jsx, Nsvbar.css, CartDisplay.jsx, CartDisplay.css, ProductInfo.jsx, ProductInfo.css, ProductCard.jsx, ProductCard.css are default versions created by the vite command.
+
+
 steps to run the application:-
 
 Step1: clone the repository to your machine.
